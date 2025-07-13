@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ceylon Coffee Shop !</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Our Special Coffee</h2>
+        <div class="image-gallery">
+            <img src="EspressoCoffe.jpg" alt="Coffee Image 1">
+            <img src="LatteCoffe.jpg" alt="Coffee Image 2">
+            <img src="Cappuccino.jpeg" alt="Coffee Image 3">
+            <img src="Americano.jpg" alt="Coffee Image 4">
+            <img src="Mocha.jpg" alt="Coffee Image 5">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Espresso</li>
+            <li>Latte</li>
+            <li>Cappuccino</li>
+            <li>Americano</li>
+            <li>Mocha</li>
+        </ul>
+    </section>
+
+    <section id="special">
+        <h2>Today's Special</h2>
+        <button onclick="showSpecial()">Click to see the special</button>
+        <p id="special-text"></p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p style="text-align: center;">We are a Ceylon coffee shop that serves fresh coffee daily. Our mission is to provide high-quality coffee with a cozy atmosphere for our customers.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <table>
+            <tr>
+                <th>Contact Method</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>ceyloncoffe@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>+94 764 562 345</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>No: 123 Main Street, Rathnapura</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ceylon Coffee Shop. All rights reserved.
+                       owner: Ama Senevirathne
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
